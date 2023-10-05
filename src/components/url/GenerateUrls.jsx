@@ -39,8 +39,7 @@ function GenerateUrls() {
         catch (error) {
             setMessages('')
             setMessage("Url already exists / Too Short to Generate. Try using another / Valid URL. ");
-            // window.alert("Url already exists / Too Short to Generate. Try using another URL");
-            // navigate(`/view_url/${params.id}`)
+            
             console.log("Error in Generating  ", error)
         }
     }

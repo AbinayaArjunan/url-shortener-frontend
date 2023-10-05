@@ -6,7 +6,7 @@ function ViewUrls() {
 
     const params = useParams();
     const navigate = useNavigate();
-    const baseURL = 'http://localhost:3001/api/url';
+    const baseURL = 'https://urlshortener-backend-1amr.onrender.com/api/url';
     const [urls, setUrls] = useState([]);
 
     useEffect(() => {

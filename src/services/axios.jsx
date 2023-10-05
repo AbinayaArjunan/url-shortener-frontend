@@ -1,7 +1,7 @@
 import axios from "axios";
 
-//const baseURL = 'https://ushorten.onrender.com/api'
-const baseURL='http://localhost:3001/api'
+const baseURL = 'https://urlshortener-backend-1amr.onrender.com/api'
+//const baseURL='http://localhost:3001/api'
 
 const authInstance = axios.create({
     baseURL: baseURL,
